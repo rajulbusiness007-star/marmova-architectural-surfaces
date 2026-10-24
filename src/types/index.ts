@@ -92,7 +92,7 @@ export interface ContainerSpec {
   internalHeightMm: number;
   doorWidthMm: number;
   doorHeightMm: number;
-  maxPayloadKg: number;
+  maxPayloadKg: number; // e.g. 28,000 kg standard shipping line export limit
   tareWeightKg: number;
   usableVolumeCuM: number;
 }
@@ -102,10 +102,10 @@ export interface PalletSpec {
   name: string;
   lengthMm: number;
   widthMm: number;
-  heightMm: number;
-  tareWeightKg: number;
-  maxPalletHeightMm: number;
-  maxGrossWeightKg: number;
+  heightMm: number; // base pallet wooden runner height
+  tareWeightKg: number; // wooden pallet weight ~20kg
+  maxPalletHeightMm: number; // typical container internal door height constraint e.g. 1500mm or 1800mm
+  maxGrossWeightKg: number; // maximum load per pallet e.g. 1500kg
 }
 
 export interface ContainerCalcInput {
@@ -170,7 +170,7 @@ export interface CountryContact {
   flag: string;
   salesRepresentative: string;
   deskTitle: string;
-  whatsappNumber: string;
+  whatsappNumber: string; // international digits only, e.g. "919876543210"
   displayPhone: string;
   email: string;
   recommendedPort: string;

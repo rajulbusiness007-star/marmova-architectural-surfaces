@@ -1,0 +1,707 @@
+# MASTER WEBSITE BUILD PROMPT — PREMIUM TILE MANUFACTURER & EXPORTER
+
+## 1. YOUR ROLE AND MAIN OBJECTIVE
+
+Act as a senior full-stack developer, premium website designer, UI/UX specialist, international B2B export consultant, performance engineer, and conversion-rate optimization expert.
+
+Build a complete, production-ready website for **[YOUR TILE COMPANY NAME]**, a tile manufacturer, supplier, or exporter serving [TARGET COUNTRIES / MARKETS].
+
+The website must have a luxurious visual identity, excellent mobile responsiveness, fast loading, accurate product information, and genuinely working interactive features.
+
+This must NOT be just a beautiful visual mockup. Build a functional website with working buttons, calculations, filters, interactive tile visualization, quotation forms, and WhatsApp integration.
+
+The core business objective is to convert website visitors into qualified domestic and international tile buyers, importers, wholesalers, retailers, architects, interior designers, builders, contractors, and project developers.
+
+Use the following non-negotiable principles:
+
+- Never invent company information, product specifications, certifications, customer reviews, shipping prices, stock availability, or manufacturing claims.
+- Never display a button that looks functional but does nothing.
+- Never use fake calculator results or hardcoded values disguised as real calculations.
+- Never overwrite or delete existing project files without inspecting the project first.
+- Make all important business information easy to update without rewriting the website.
+- If a required API, database, business phone number, product specification, or service credential is missing, create a clearly documented configuration point instead of pretending the feature is fully operational.
+
+## 2. PREMIUM VISUAL DESIGN AND BRAND IDENTITY
+
+Create a world-class premium tiles website inspired by luxury architectural material brands, sophisticated interior design studios, modern international exporters, and high-end product catalogues.
+
+### Design direction
+
+Use a combination of:
+
+- Luxury minimalism and editorial typography.
+- A sophisticated bento-grid layout where appropriate.
+- Large, elegant architectural photography.
+- Subtle glass effects, restrained shadows, clean borders, and tasteful micro-interactions.
+- High-quality tile textures, marble patterns, porcelain surfaces, wood-look finishes, and contemporary interior photography.
+- Generous whitespace, beautiful spacing, well-designed cards, and a clear visual hierarchy.
+
+Suggested colour palette:
+
+- Deep navy: #0F172A
+- Charcoal: #111827
+- Royal blue: #1E3A8A
+- Accent blue: #3B82F6
+- Warm white: #FFFFFF
+- Soft background: #F8FAFC
+- Slate text: #CBD5E1
+- Optional premium gold accent: #D4AF37
+
+Use the colours intelligently. Keep the pages clean and luxurious instead of making every section colourful.
+
+Typography should be modern, premium, readable, and responsive. Use elegant headings paired with a highly readable body font.
+
+Avoid generic AI-generated layouts, excessive gradients, cartoon-style illustrations, overwhelming animation, repetitive cards, and oversized elements that damage usability.
+
+The finished website must look professionally art-directed on both mobile and desktop.
+
+## 3. HOMEPAGE HERO SECTION — MAKE AN EXCELLENT FIRST IMPRESSION
+
+The homepage hero is one of the most important parts of this project.
+
+Design a visually stunning, full-width hero section featuring a premium modern living room, luxury hotel interior, contemporary villa, or architectural space with beautiful tile flooring.
+
+The imagery must showcase the product naturally, with realistic lighting, accurate tile textures, and convincing material details.
+
+### Hero content
+
+Use this headline as an initial direction:
+
+“Exceptional Surfaces. Extraordinary Spaces.”
+
+Supporting text:
+
+“Discover premium tile collections designed for inspiring interiors, ambitious architectural projects, and international supply requirements.”
+
+Treat the copy as editable draft content and adjust it to match the actual company and products.
+
+Include three prominent calls to action:
+
+1. **Explore Tile Collections** — navigates to the product catalogue.
+2. **Visualize Tiles in 3D** — opens the interactive room visualizer.
+3. **Request an Export Quote** — opens the quotation form or RFQ section.
+
+Also provide a clearly visible option to calculate container loading.
+
+Include a refined navigation bar with the company logo, Products, Applications, 3D Visualizer, Container Calculator, Export & Logistics, About Us, and Contact.
+
+Add a mobile navigation menu that works properly using touch controls.
+
+If the business supplies international customers, include a country or destination selector where it is useful.
+
+The hero must communicate product quality, design inspiration, and the ease of purchasing from the company within the first few seconds.
+
+## 4. PRODUCT CATALOGUE AND TILE DETAIL PAGES
+
+Build a proper tile catalogue with search, filtering, sorting, product cards, and individual product pages.
+
+Provide configurable categories such as:
+
+- Porcelain tiles.
+- Ceramic tiles.
+- Floor tiles.
+- Wall tiles.
+- Bathroom tiles.
+- Kitchen tiles.
+- Outdoor tiles.
+- Marble-look tiles.
+- Stone-look tiles.
+- Wood-look tiles.
+- Large-format tiles.
+
+Only show categories that match the company's actual catalogue.
+
+### Catalogue filters
+
+Support filtering by available product attributes, including:
+
+- Product category.
+- SKU or product code.
+- Tile dimensions.
+- Colour and pattern.
+- Surface finish.
+- Intended application.
+- Material.
+- Thickness.
+- Slip-resistance rating, if verified.
+- Technical specifications.
+- Availability, when real stock data exists.
+
+Include a responsive search bar, clear filters button, sorting controls, and pagination or efficient incremental loading.
+
+### Individual product pages
+
+Each product page should support:
+
+- High-resolution product photography.
+- Multiple views and room-installation images.
+- Product name and unique SKU.
+- Tile dimensions.
+- Thickness.
+- Finish and material.
+- Tiles per box.
+- Coverage per box in square metres and square feet, where applicable.
+- Net and gross box weight.
+- Carton dimensions.
+- Boxes per pallet and pallet specifications, where configured.
+- Technical data sheets and downloadable brochures, when provided.
+- Suitable application recommendations based on actual product specifications.
+- Related products.
+- Add to quote or Request Price CTA.
+- Visualize This Tile in 3D CTA.
+- Calculate Required Quantity CTA.
+- WhatsApp Enquiry CTA.
+
+Do not display fabricated prices or stock statuses. If prices are quotation-based, clearly show “Request a Quote” instead of inventing prices.
+
+Create one central product data structure so the catalogue, 3D visualizer, quantity calculator, and container calculator use consistent product information.
+
+## 5. ESSENTIAL FEATURE: INTERACTIVE 3D ROOM VISUALIZER
+
+Build an interactive room preview that allows visitors to visualize selected tiles on floors and walls before requesting a quotation.
+
+This must be a genuine interactive feature, not merely a static room photograph with a tile thumbnail.
+
+### User experience
+
+Allow visitors to:
+
+1. Select a tile product from the catalogue.
+2. Choose a room preset, such as a living room, bedroom, bathroom, kitchen, or commercial interior.
+3. Apply a selected tile to the floor.
+4. Apply another selected tile to one or more walls.
+5. Change tile colour, pattern, size, and orientation using available product data.
+6. Adjust the room dimensions where supported.
+7. Change grout colour and grout spacing.
+8. Compare suitable tile options.
+9. Rotate the viewing angle or camera when supported.
+10. Reset the room to its original configuration.
+11. Capture or download a preview image if technically supported.
+12. Send the selected tile and room details to the quotation form or WhatsApp.
+
+Provide a clear “Visualize This Tile” action directly on product pages.
+
+### Visual accuracy
+
+Use actual tile textures from the product catalogue.
+
+Preserve the texture's aspect ratio and repeat pattern realistically. Scale the texture using the tile's real dimensions, when known, to avoid making small tiles appear like large-format slabs.
+
+Support realistic perspective, lighting, shadows, and grout lines where possible.
+
+The visualizer should look premium and be intuitive for customers who are not technically experienced.
+
+### Technology and performance
+
+Use a suitable WebGL/Three.js-based implementation or another reliable approach supported by the project environment.
+
+Load the 3D viewer only when needed or when it approaches the visible screen area. Optimize models and textures, reduce unnecessary rendering, and clean up resources when the viewer closes.
+
+On low-powered mobile devices or unsupported browsers, provide a clear fallback such as a lightweight 2D room preview or product-room comparison. Do not leave users with a blank screen.
+
+Clearly label the preview as a visualization, since lighting, display settings, grout, and installation conditions can affect the actual appearance.
+
+If exact 3D rendering is not feasible with the available assets, build a functional first version with a clear path for upgrading it rather than claiming unsupported capabilities.
+
+## 6. ESSENTIAL FEATURE: CONTAINER LOADABILITY CALCULATOR
+
+Build a practical, interactive **Container Loadability Calculator** for tile buyers, wholesalers, importers, logistics teams, and export customers.
+
+The initial focus is on estimating the load for a standard 20-foot FCL container, with configuration options for additional container types if required.
+
+### Calculator inputs
+
+Allow the user to choose a tile SKU or enter the product specifications.
+
+Collect the necessary values, including:
+
+- Carton length, width, and height.
+- Gross weight per carton.
+- Net tile weight per carton, if available.
+- Tiles per carton.
+- Coverage per carton.
+- Pallet length, width, height, and tare weight.
+- Cartons per pallet, when known.
+- Maximum permitted pallet height.
+- Maximum permitted gross weight per pallet.
+- Container internal dimensions.
+- Usable payload or configured maximum cargo weight.
+- Container door dimensions when relevant.
+- Loading method: palletized or floor-loaded.
+- Packaging and handling allowances where applicable.
+
+Provide metric and imperial unit support where practical.
+
+Let the user select whether to calculate pallet capacity automatically from verified carton and pallet dimensions or enter a known cartons-per-pallet figure.
+
+### Required calculations
+
+Calculate and display:
+
+**A. Boxes per pallet**
+- Estimated boxes per layer based on usable pallet footprint and carton orientation.
+- Permitted number of layers based on configured height limits.
+- Capacity limited by permissible pallet weight.
+- Maximum boxes per pallet under the entered packing assumptions.
+
+If the necessary data is incomplete, request a manual value or mark the result as unavailable. Do not guess.
+
+**B. Estimated 20-foot FCL loading**
+- Estimated pallet count or floor-loaded carton count.
+- Estimated total cartons.
+- Total tiles, where the product data supports this.
+- Total coverage in square metres and square feet.
+- Estimated net tile weight.
+- Estimated gross cargo weight, including packaging and pallets where applicable.
+- Approximate space utilization when the required dimensions are known.
+- The constraint that limits the load, such as weight, available floor space, pallet count, or stack height.
+
+**C. Results and customer actions**
+
+Present the results in an attractive dashboard containing:
+
+- Estimated boxes per pallet.
+- Estimated total cartons per container.
+- Estimated total coverage.
+- Estimated cargo weight.
+- Estimated pallet count.
+- Applicable loading assumptions and warnings.
+
+Include these CTA buttons:
+
+- Request an Accurate Loading Plan.
+- Get an Export Quote.
+- Send Results via WhatsApp.
+- Download Estimate, if implemented.
+
+The WhatsApp message must contain the selected SKU, container type, carton count, coverage, estimated weight, destination country, and important assumptions.
+
+### Critical calculation rules
+
+Do not estimate container capacity by dividing container volume alone. Tile cartons are heavy, and actual loading also depends on cargo payload, dimensions, door access, packing arrangement, pallet specifications, packaging, stackability, and shipping restrictions.
+
+Distinguish palletized loading from floor-loaded loading.
+
+Use configurable, verified container specifications and actual product packaging data. Do not hardcode universal container capacity or claim an exact loading plan from incomplete data.
+
+Show a clear disclaimer: the result is an estimate for planning purposes and must be confirmed against actual packaging, container specifications, loading restrictions, and the logistics provider's requirements.
+
+If a reliable 3D packing algorithm is not implemented, label the result as a calculated estimate rather than an exact physical loading arrangement.
+
+## 7. ESSENTIAL FEATURE: ONE-CLICK WHATSAPP RFQ WITH COUNTRY ROUTING
+
+Build a reliable WhatsApp Request for Quotation system designed for international tile customers.
+
+The feature must work throughout the website: in the navigation, product cards, product details, 3D visualizer, container calculator, quotation page, and mobile interface.
+
+### Country-based routing
+
+Create a configurable mapping between destination countries and the appropriate sales contact.
+
+For example:
+
+- India → configured India sales number.
+- United States → configured USA/international sales contact.
+- United Kingdom → configured UK/international sales contact.
+- Australia → configured Australia/international sales contact.
+- Other countries → configured global export sales contact.
+
+These are examples of routing rules, not actual company contacts. The company must configure the correct numbers.
+
+Let customers choose their destination country. Route the enquiry using the configured sales-team mapping.
+
+Do not confuse the customer's phone country code with the destination country or the country of the responsible sales team.
+
+Use correctly formatted international WhatsApp numbers without the plus sign, spaces, or punctuation in the `wa.me` recipient number. Use URL-encoded message text.
+
+If no destination-specific route is configured, use the designated global sales contact or offer an alternative enquiry method. Never invent a phone number.
+
+### One-click RFQ message
+
+Automatically prepare a professional WhatsApp message containing the available details:
+
+“Hello, I would like to request a quotation for your tiles.
+
+Product / SKU: [Selected Product]
+Tile Size: [Product Dimensions]
+Required Quantity: [Boxes or Square Metres]
+Destination Country: [Selected Country]
+Destination Port: [Provided Port, if known]
+Container Type: [Selected Container]
+Estimated Cartons: [Calculated Cartons, if available]
+Estimated Coverage: [Calculated Coverage, if available]
+Estimated Cargo Weight: [Calculated Weight, if available]
+Company Name: [Customer Input]
+Customer Name: [Customer Input]
+
+Please share your quotation, product specifications, packaging details, and export or shipping information.”
+
+Only insert fields that actually have values. Make every message editable before it is sent.
+
+Use WhatsApp click-to-chat functionality. Opening WhatsApp must be initiated by the customer's click; the website must not pretend it has sent the message automatically.
+
+### RFQ form
+
+Build a polished form with these fields:
+
+- Customer name.
+- Company name.
+- Business email.
+- Customer WhatsApp number and country code.
+- Destination country.
+- Destination port, optional.
+- Product or SKU selection.
+- Required quantity.
+- Preferred packaging/loading method, if relevant.
+- Message or special requirements.
+- Optional attachment, if secure upload is supported.
+
+Validate the form properly and make the success/error state clear.
+
+If backend lead storage or email delivery is configured, save and route enquiries securely. Otherwise, provide a clearly working WhatsApp/email fallback instead of displaying a false “Enquiry submitted successfully” message.
+
+Prevent duplicate accidental submissions, add spam protection, and include a privacy notice.
+
+## 8. ADD A TILE QUANTITY AND WASTAGE CALCULATOR
+
+Create a practical Room Tile Quantity Calculator.
+
+Allow customers to enter room length and width or total floor area, the selected tile SKU, coverage per box, and expected wastage percentage.
+
+Where supported, allow separate wall dimensions and deductions for doors, windows, or other excluded areas.
+
+Calculate:
+
+- Total coverage required.
+- Suggested wastage allowance.
+- Total area including wastage.
+- Estimated tile quantity where actual tile dimensions are known.
+- Number of cartons required, rounded up to complete cartons.
+- Final coverage purchased and estimated excess coverage.
+
+Let users choose sensible wastage assumptions, but never present a single percentage as correct for every room or installation. Make the chosen percentage editable and explain that cutting patterns, room shape, tile layout, damage, and installer recommendations affect the requirement.
+
+Show a clear disclaimer that final quantities should be confirmed with the installer or project professional.
+
+Provide “Add to Quote” and “Send Calculation via WhatsApp” buttons.
+
+## 9. HOMEPAGE STRUCTURE AND ADDITIONAL SECTIONS
+
+Build the homepage using the following suggested hierarchy:
+
+1. Announcement or export-enquiry bar.
+2. Premium navigation and hero.
+3. Product category section.
+4. Featured tile collections.
+5. Popular applications and interior inspiration.
+6. Interactive 3D room preview demonstration.
+7. Tile quantity calculator.
+8. Container loadability calculator.
+9. Why Choose Us section.
+10. Manufacturing, sourcing, or quality information, based only on verified facts.
+11. Export process and logistics overview.
+12. Completed projects or installation gallery, if supplied.
+13. Product catalogue CTA.
+14. Genuine testimonials or customer reviews, if provided.
+15. Frequently Asked Questions.
+16. RFQ and contact CTA.
+17. Newsletter signup, if required and properly configured.
+18. Full footer containing company details, contact information, navigation, and social media links.
+
+Use real company advantages, verified quality information, and authentic imagery. Do not invent export destinations, factory size, production capacity, years in business, certifications, project clients, or testimonials.
+
+## 10. REQUIRED WEBSITE PAGES
+
+Create a well-organized website with these pages:
+
+- Home.
+- Products / Tile Catalogue.
+- Individual Product Details.
+- 3D Room Visualizer.
+- Container Loadability Calculator.
+- Tile Quantity Calculator.
+- Applications / Room Inspiration.
+- About the Company.
+- Quality and Technical Specifications.
+- Export and Logistics.
+- Projects / Gallery, when applicable.
+- Request a Quote.
+- Contact Us.
+- Frequently Asked Questions.
+- Privacy Policy.
+- Terms and Conditions.
+- Cookie Policy, where applicable.
+
+Build a consistent design system, reusable components, sensible URL structures, proper breadcrumbs, and functional navigation across all pages.
+
+If the project is a B2B quotation website, prioritize RFQ functionality over unnecessary shopping-cart or payment features. Add e-commerce only if it is specifically required.
+
+## 11. CTA BUTTONS AND CONVERSION EXPERIENCE
+
+Every CTA must have a meaningful destination or a working interaction.
+
+Primary actions should include:
+
+- Explore Collections.
+- View Product Details.
+- Visualize in 3D.
+- Calculate Required Quantity.
+- Calculate Container Loading.
+- Request a Quote.
+- WhatsApp Sales.
+- Download Product Brochure.
+- Contact Export Team.
+- Back to Catalogue.
+
+Use consistent CTA styling, sensible button hierarchy, hover and focus states, clear error handling, and touch-friendly sizing.
+
+Add a mobile-friendly sticky WhatsApp enquiry button where appropriate, without covering important content or interfering with the mobile navigation.
+
+Do not place too many competing CTA buttons in the same area.
+
+## 12. SOCIAL MEDIA AND CONTACT INTEGRATION
+
+Create a configurable section for all company social profiles, including any available:
+
+- Instagram.
+- Facebook.
+- LinkedIn.
+- YouTube.
+- Pinterest.
+- WhatsApp.
+- Other company-approved social platforms.
+
+Store all URLs and contact details in one central configuration file or content-management system.
+
+Display only verified links that have been configured. Hide unavailable profiles instead of linking to invented accounts.
+
+Use clear accessible icons and open external social links appropriately.
+
+Also support configurable company email addresses, office or showroom addresses, Google Maps link or embed when appropriate, business hours, and phone contacts.
+
+Never invent a physical address or claim that a map location has been verified when it has not.
+
+## 13. EXPORT SALES AND CUSTOMER TRUST FEATURES
+
+Add useful information for international buyers, including:
+
+- Export enquiry process.
+- Available packaging details.
+- Product and carton specifications.
+- Pallet specifications.
+- Container loading assumptions.
+- Sample-request process, if offered.
+- Minimum order quantity, if configured.
+- Production or dispatch lead times, if verified.
+- Shipping and Incoterms information, if configured.
+- Frequently requested product documents.
+- Technical specification downloads.
+- Shipping destination and port fields.
+
+Do not promise customs clearance, specific delivery dates, freight rates, duties, or shipping costs without reliable configured information.
+
+Provide clear enquiry routes for importers, distributors, bulk buyers, architects, and project contractors.
+
+## 14. FAQ SECTION
+
+Build an accessible accordion FAQ section with questions relevant to tile buyers and exporters, such as:
+
+- How can I choose the correct tile size?
+- How many boxes do I need for my project?
+- What is the recommended wastage allowance?
+- How can I preview tiles in a room?
+- How many boxes can fit on a pallet?
+- How is 20-foot FCL container loadability calculated?
+- Can I request a quotation for bulk orders?
+- Which product specifications are available?
+- Can you provide samples?
+- Which countries and ports do you serve?
+- How can I obtain technical documents?
+- How do I contact the export team?
+
+Only provide answers supported by company information. Use configurable answers for policies and export-specific details. Do not claim the company offers samples, international shipping, or specific services unless confirmed.
+
+## 15. FAST, MOBILE-FIRST PERFORMANCE — TARGET APPROXIMATELY 2 SECONDS
+
+Speed is a major requirement.
+
+Engineer the website to target approximately two seconds for the initial useful page experience on a reasonably fast mobile connection, where hosting, network conditions, and third-party services allow it.
+
+Use measured performance results rather than guaranteeing a universal loading time.
+
+Implement:
+
+- Mobile-first responsive layouts.
+- Modern AVIF or WebP images where supported.
+- Correct image dimensions and responsive image sources.
+- Compressed imagery and appropriately sized product thumbnails.
+- Lazy loading for below-the-fold images.
+- Prioritized loading for the main hero image.
+- Minimal JavaScript and a small dependency footprint.
+- Server rendering or static generation where appropriate.
+- Code splitting and dynamic loading for heavy components.
+- Lazy initialization of the 3D visualizer.
+- Font optimization and a minimal number of font weights.
+- Caching, CDN delivery, and compression through the selected hosting platform.
+- No unnecessary autoplay videos or oversized animation libraries.
+- No blocking third-party widgets unless they are essential.
+- Efficient catalogue filtering and calculator updates.
+- Proper cleanup of 3D resources.
+
+Measure performance using Lighthouse or suitable browser performance tools. Aim for strong Core Web Vitals and a mobile Lighthouse performance score of 90 or better when feasible.
+
+Report any performance bottlenecks honestly. Do not claim a two-second load time or a successful benchmark until it has actually been measured.
+
+## 16. SEO AND INTERNATIONAL SEARCH VISIBILITY
+
+Make the website search-engine friendly for customers searching for tile products and exporters.
+
+Implement:
+
+- Unique page titles and meta descriptions.
+- Logical H1, H2, and H3 hierarchy.
+- Search-friendly product names and URLs.
+- Canonical URLs.
+- XML sitemap and appropriate robots.txt.
+- Breadcrumb navigation and structured data where valid.
+- Product schema only where it accurately represents the product information.
+- Organization schema using verified company information.
+- Open Graph and social sharing metadata.
+- Descriptive image alt text.
+- Internal links between related products and tools.
+- Accessible HTML and semantic page structure.
+- Fast, indexable product pages.
+- Appropriate international targeting and hreflang only if real localized pages exist.
+
+Optimize the content naturally for relevant terms such as premium tiles, porcelain tiles, ceramic tiles, floor tiles, wall tiles, bulk tile suppliers, tile manufacturer, tile exporter, and destination-specific searches when supported by the company's actual business.
+
+Avoid keyword stuffing, fabricated product ratings, false availability, and duplicate boilerplate descriptions.
+
+## 17. ACCESSIBILITY, SECURITY, AND RELIABILITY
+
+Build the website so it is easy to operate for customers of different ages, devices, and abilities.
+
+Include:
+
+- Accessible colour contrast.
+- Keyboard navigation.
+- Visible focus states.
+- Labels for all form fields.
+- Proper error messages.
+- Appropriate image descriptions.
+- Reduced-motion support.
+- Responsive menus and accordions.
+- Touch-friendly controls.
+- Graceful handling of missing assets and failed requests.
+
+Sanitize and validate user input on the server wherever applicable. Protect API keys with environment variables. Never put private service-role keys or confidential credentials in client-side JavaScript or a public GitHub repository.
+
+If a database or backend is required, implement proper access controls and server-side validation. Collect only necessary customer information, protect RFQ submissions, and provide appropriate privacy controls.
+
+External links, downloads, the calculator, the 3D viewer, forms, and WhatsApp routing must all be handled safely.
+
+## 18. TECHNICAL IMPLEMENTATION AND PROJECT WORKFLOW
+
+Use the current project stack if it is already established.
+
+If starting a new application and compatible with the available environment, prefer:
+
+- Next.js with TypeScript.
+- React.
+- Tailwind CSS or a similarly maintainable styling system.
+- Reusable, accessible components.
+- Three.js or an appropriate alternative for the 3D visualizer.
+- A secure database or lead-management backend when configured and necessary.
+- GitHub for version control.
+- Vercel for deployment.
+
+Before making changes, inspect the existing repository, its framework, configuration, dependencies, and file structure.
+
+Do not automatically replace the project stack simply because another option exists.
+
+Create maintainable modules for:
+
+- Product catalogue and product specifications.
+- Company and social media settings.
+- Container and pallet configuration.
+- Quantity calculator.
+- Container calculator.
+- 3D visualizer.
+- Country-based WhatsApp routing.
+- RFQ forms and lead handling.
+- SEO metadata.
+- Shared UI and responsive navigation.
+
+Keep configurable company data separate from interface code.
+
+If the project is missing real product data, phone numbers, database credentials, email-provider credentials, or 3D assets, clearly identify the information that must be supplied. Provide setup instructions and useful fallbacks, but never fabricate working integrations.
+
+## 19. REQUIRED TESTING BEFORE COMPLETION
+
+Do not stop when the homepage looks beautiful. Verify that the complete user journey works.
+
+Test the following:
+
+1. Desktop, tablet, and mobile layouts.
+2. Navigation, menus, footer links, and all CTA buttons.
+3. Catalogue search, filters, sorting, and product details.
+4. Product data consistency across the catalogue, calculators, and visualizer.
+5. Boxes-per-pallet calculation with realistic test data.
+6. Pallet height and weight limits.
+7. Container capacity constrained by both space and permitted payload.
+8. Palletized versus floor-loaded estimates.
+9. Unit conversion, rounding, missing inputs, and invalid values.
+10. Quantity calculation and rounding up to complete cartons.
+11. Applying different tiles to a room's floor and walls.
+12. 3D fallback behaviour on unsupported or low-powered devices.
+13. Country-based WhatsApp routing to configured numbers.
+14. Correct URL encoding of WhatsApp message content.
+15. RFQ form validation, error messages, and submission handling.
+16. Product brochure downloads and configured social links.
+17. SEO metadata and responsive imagery.
+18. Mobile performance and major console/runtime errors.
+19. Secret handling, environment variables, and GitHub configuration.
+20. Deployment configuration for Vercel.
+
+Do not say a feature is tested if it has not been tested. Fix the issues you can reproduce, and clearly list any remaining integration requirements or limitations.
+
+## 20. FINAL DELIVERABLES
+
+Finish the actual working website implementation, not just a plan or a homepage mockup.
+
+Provide:
+
+- A complete, organized project.
+- All required website pages.
+- Responsive navigation and reusable components.
+- Functional calculators.
+- The interactive 3D visualization implementation or an accurately documented working fallback.
+- Configurable country-based WhatsApp RFQ routing.
+- A centralized product data structure.
+- Clear configuration for company details, contacts, social links, product attributes, packaging, pallets, and container specifications.
+- Secure form-handling integration where configured.
+- SEO essentials and performance optimizations.
+- A README with simple beginner-friendly instructions.
+- A `.env.example` file for required environment variables, containing placeholders only.
+- A testing checklist with actual results.
+- Clear GitHub and Vercel deployment instructions.
+- A concise list of any missing information needed before going live.
+
+After implementation, explain in simple language:
+
+1. What has been built.
+2. How the two calculators work.
+3. How to add or edit tile products.
+4. How to configure WhatsApp contacts for each destination.
+5. Which secrets or external services need configuration.
+6. How to run the website locally.
+7. How to push the project to GitHub and deploy on Vercel.
+8. Which features have been tested and what remains incomplete.
+
+### FINAL QUALITY STANDARD
+
+The result must combine luxury-level visual design, practical tools for bulk buyers, accurate product and shipping information, reliable quotation conversion, mobile responsiveness, and excellent performance.
+
+Prioritize **accuracy, usability, performance, accessibility, maintainability, and real functionality over decorative effects**.
+
+Do not skip any required section. Do not replace requested features with nonfunctional placeholders without clearly identifying the limitation. Inspect, implement, test, fix, and document the website before declaring the work complete.

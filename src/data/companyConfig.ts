@@ -1,0 +1,198 @@
+/**
+ * @license
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+import { ContainerSpec, PalletSpec, CountryContact } from '../types';
+
+export const COMPANY_INFO = {
+  brandName: 'MARMOVA',
+  brandTagline: 'Architectural Surfaces & Vitrified Slabs',
+  legalName: 'Marmova Surface Industries Ltd.',
+  establishedYear: '2011',
+  exportPortOfLoading: 'Mundra Port / Pipavav Port, India',
+  headquartersAddress: 'Marmova Global Surface Tower, Sector 4, Architectural Boulevard, Export Zone',
+  plantLocation: 'National Highway 8A, Ceramics Manufacturing Cluster, Morbi, Gujarat, India',
+  contactEmail: 'export@marmovasurfaces.com',
+  inquiryEmail: 'architects@marmovasurfaces.com',
+  salesPhone: '+91 2822 295 800',
+  defaultWhatsApp: '919876543210', // Global export desk WhatsApp (configured digits only for wa.me)
+  globalSalesDirector: 'Alexander Vance / Rajiv Mehta (Director of Global Exports)',
+  certifications: [
+    { name: 'ISO 9001:2015', label: 'Quality Management System certified' },
+    { name: 'ISO 14001:2015', label: 'Environmental Management certification' },
+    { name: 'CE Mark EN 14411', label: 'European Union Construction Compliance Group BIa' },
+    { name: 'Green Building Council', label: 'LEED v4 credits contributor for eco-surfaces' },
+    { name: 'ASTM C1027', label: 'Abrasion & heavy traffic commercial rating' },
+    { name: 'Bureau of Indian Standards', label: 'ISI Mark IS 15622:2017' },
+  ],
+  socialLinks: {
+    instagram: 'https://instagram.com/marmovasurfaces',
+    linkedin: 'https://linkedin.com/company/marmova-surfaces',
+    facebook: 'https://facebook.com/marmovasurfaces',
+    youtube: 'https://youtube.com/@marmovasurfaces',
+    pinterest: 'https://pinterest.com/marmovasurfaces',
+  },
+  operatingHours: 'Monday - Saturday: 08:30 - 20:30 IST (Global Export Desk 24/7 on WhatsApp)',
+};
+
+export const CONTAINER_SPECS: Record<string, ContainerSpec> = {
+  '20ft-dry': {
+    id: '20ft-dry',
+    name: 'Standard 20ft Dry Cargo Container (20\' FCL)',
+    internalLengthMm: 5898,
+    internalWidthMm: 2352,
+    internalHeightMm: 2393,
+    doorWidthMm: 2340,
+    doorHeightMm: 2280,
+    maxPayloadKg: 28000, // standard heavy cargo export rating for dense ceramic/porcelain
+    tareWeightKg: 2200,
+    usableVolumeCuM: 33.2,
+  },
+  '40ft-hc': {
+    id: '40ft-hc',
+    name: '40ft High Cube Container (40\' HC FCL)',
+    internalLengthMm: 12032,
+    internalWidthMm: 2352,
+    internalHeightMm: 2698,
+    doorWidthMm: 2340,
+    doorHeightMm: 2585,
+    maxPayloadKg: 28600, // payload weight ceiling restricted by road weight transport laws
+    tareWeightKg: 3900,
+    usableVolumeCuM: 76.4,
+  },
+};
+
+export const PALLET_SPECS: Record<string, PalletSpec> = {
+  euro: {
+    id: 'euro',
+    name: 'Euro Fumigated Wooden Pallet (1200 × 800 mm)',
+    lengthMm: 1200,
+    widthMm: 800,
+    heightMm: 144, // wooden pallet base
+    tareWeightKg: 22,
+    maxPalletHeightMm: 1100, // stacking standard for container loading
+    maxGrossWeightKg: 1500,
+  },
+  industrial: {
+    id: 'industrial',
+    name: 'Standard Industrial Pallet (1200 × 1000 mm)',
+    lengthMm: 1200,
+    widthMm: 1000,
+    heightMm: 150,
+    tareWeightKg: 25,
+    maxPalletHeightMm: 1150,
+    maxGrossWeightKg: 1600,
+  },
+};
+
+export const COUNTRY_CONTACTS: CountryContact[] = [
+  {
+    countryCode: 'US',
+    countryName: 'United States',
+    flag: '🇺🇸',
+    salesRepresentative: 'Marcus Sterling',
+    deskTitle: 'North America Architectural & Commercial Accounts',
+    whatsappNumber: '13025550198',
+    displayPhone: '+1 (302) 555-0198',
+    email: 'usa.export@marmovasurfaces.com',
+    recommendedPort: 'Port of Los Angeles / New York / Houston',
+    typicalTransitDays: '28 - 35 days',
+  },
+  {
+    countryCode: 'GB',
+    countryName: 'United Kingdom',
+    flag: '🇬🇧',
+    salesRepresentative: 'Eleanor Wright',
+    deskTitle: 'UK & European Union Specification Desk',
+    whatsappNumber: '442079460912',
+    displayPhone: '+44 20 7946 0912',
+    email: 'uk.export@marmovasurfaces.com',
+    recommendedPort: 'Port of Felixstowe / Southampton',
+    typicalTransitDays: '22 - 26 days',
+  },
+  {
+    countryCode: 'AU',
+    countryName: 'Australia',
+    flag: '🇦🇺',
+    salesRepresentative: 'Liam O\'Connor',
+    deskTitle: 'Australasia & Pacific Wholesale Desk',
+    whatsappNumber: '61291234567',
+    displayPhone: '+61 2 9123 4567',
+    email: 'australia@marmovasurfaces.com',
+    recommendedPort: 'Port of Melbourne / Sydney / Brisbane',
+    typicalTransitDays: '18 - 24 days',
+  },
+  {
+    countryCode: 'AE',
+    countryName: 'United Arab Emirates & GCC',
+    flag: '🇦🇪',
+    salesRepresentative: 'Tariq Al-Mansoor',
+    deskTitle: 'Middle East & GCC Project Director',
+    whatsappNumber: '97143219876',
+    displayPhone: '+971 4 321 9876',
+    email: 'gcc.export@marmovasurfaces.com',
+    recommendedPort: 'Jebel Ali Port, Dubai',
+    typicalTransitDays: '5 - 7 days',
+  },
+  {
+    countryCode: 'IN',
+    countryName: 'India (Domestic & High-End Projects)',
+    flag: '🇮🇳',
+    salesRepresentative: 'Rajesh Patel',
+    deskTitle: 'National Infrastructure & Luxury Builder Sales',
+    whatsappNumber: '919876543210',
+    displayPhone: '+91 98765 43210',
+    email: 'india.sales@marmovasurfaces.com',
+    recommendedPort: 'Mundra / Nhava Sheva / Inland Road CFS',
+    typicalTransitDays: '2 - 5 days',
+  },
+  {
+    countryCode: 'SA',
+    countryName: 'Saudi Arabia',
+    flag: '🇸🇦',
+    salesRepresentative: 'Fahad Al-Harbi',
+    deskTitle: 'KSA Mega Projects & Giga-Developments',
+    whatsappNumber: '966114567890',
+    displayPhone: '+966 11 456 7890',
+    email: 'ksa.projects@marmovasurfaces.com',
+    recommendedPort: 'Jeddah Islamic Port / King Abdulaziz Port Dammam',
+    typicalTransitDays: '7 - 10 days',
+  },
+  {
+    countryCode: 'DE',
+    countryName: 'Germany & Central Europe',
+    flag: '🇩🇪',
+    salesRepresentative: 'Christian Weber',
+    deskTitle: 'Central Europe Tile Importers & Architects',
+    whatsappNumber: '493012345678',
+    displayPhone: '+49 30 1234 5678',
+    email: 'europe@marmovasurfaces.com',
+    recommendedPort: 'Port of Hamburg / Rotterdam',
+    typicalTransitDays: '24 - 28 days',
+  },
+  {
+    countryCode: 'CA',
+    countryName: 'Canada',
+    flag: '🇨🇦',
+    salesRepresentative: 'David Tremblay',
+    deskTitle: 'Canadian Distributor Accounts',
+    whatsappNumber: '14165550143',
+    displayPhone: '+1 (416) 555-0143',
+    email: 'canada@marmovasurfaces.com',
+    recommendedPort: 'Port of Vancouver / Port of Montreal',
+    typicalTransitDays: '30 - 36 days',
+  },
+  {
+    countryCode: 'GLOBAL',
+    countryName: 'Other Countries / Global Export Desk',
+    flag: '🌐',
+    salesRepresentative: 'MARMOVA International Logistics Division',
+    deskTitle: 'Worldwide FCL Export & Custom Specification Team',
+    whatsappNumber: '919876543210',
+    displayPhone: '+91 98765 43210',
+    email: 'export@marmovasurfaces.com',
+    recommendedPort: 'Direct CIF/FOB quote to any worldwide sea terminal',
+    typicalTransitDays: 'Global routes available',
+  },
+];
