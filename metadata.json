@@ -1,0 +1,6 @@
+{
+  "name": "MARMOVA Architectural Surfaces | Luxury Porcelain & Stone Tile Exporter",
+  "description": "Premier luxury tile manufacturer and global exporter. Features interactive 3D room visualizer, 20ft/40ft container loadability calculator, room tile quantity estimator, and 1-click international WhatsApp RFQ routing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
