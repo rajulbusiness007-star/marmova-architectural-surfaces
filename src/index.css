@@ -1,0 +1,345 @@
+@import "tailwindcss";
+
+/* -------------------------------------------------------------
+ * TYPOGRAPHY: PP Neue Montreal (Pangram Pangram)
+ * The premier neo-grotesque font for luxury architectural interfaces
+ * ------------------------------------------------------------- */
+@font-face {
+  font-family: 'PP Neue Montreal';
+  src: local('PP Neue Montreal Book'),
+       local('PPNeueMontreal-Book'),
+       url('/fonts/PPNeueMontreal-Book.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Montreal';
+  src: local('PP Neue Montreal Regular'),
+       local('PPNeueMontreal-Regular'),
+       local('PP Neue Montreal'),
+       url('/fonts/PPNeueMontreal-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Montreal';
+  src: local('PP Neue Montreal Medium'),
+       local('PPNeueMontreal-Medium'),
+       url('/fonts/PPNeueMontreal-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Montreal';
+  src: local('PP Neue Montreal Bold'),
+       local('PPNeueMontreal-Bold'),
+       url('/fonts/PPNeueMontreal-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@layer base {
+  :root {
+    --gold: #D4AF37;
+    --gold-light: #F3E5AB;
+    --gold-dark: #997A15;
+    --navy-deep: #090D16;
+    --navy-card: #0F172A;
+  }
+
+  body {
+    font-family: 'PP Neue Montreal', 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size-adjust: from-font;
+    background-color: #090D16;
+    color: #F8FAFC;
+    overflow-x: hidden;
+    letter-spacing: -0.015em;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'PP Neue Montreal', system-ui, -apple-system, sans-serif;
+    letter-spacing: -0.025em;
+  }
+}
+
+.font-montreal {
+  font-family: 'PP Neue Montreal', system-ui, -apple-system, sans-serif;
+  font-size-adjust: from-font;
+}
+
+/* Site-wide replacement with PP Neue Montreal as requested */
+.font-serif-luxury {
+  font-family: 'PP Neue Montreal', system-ui, -apple-system, sans-serif;
+  font-size-adjust: from-font;
+  letter-spacing: -0.025em;
+}
+
+.font-sans-main {
+  font-family: 'PP Neue Montreal', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  font-size-adjust: from-font;
+  letter-spacing: -0.015em;
+}
+
+.font-mono-tech {
+  font-family: 'Space Grotesk', 'PP Neue Montreal', monospace;
+}
+
+/* -------------------------------------------------------------
+ * BENTO GRID DESIGN SYSTEM UTILITIES
+ * Modular, asymmetric card layouts inspired by Japanese bento boxes
+ * ------------------------------------------------------------- */
+.bento-card {
+  position: relative;
+  background: rgba(15, 20, 36, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 1.5rem;
+  overflow: hidden;
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.bento-card:hover {
+  border-color: rgba(212, 175, 55, 0.45);
+  box-shadow: 0 12px 35px -8px rgba(0, 0, 0, 0.5), 0 0 25px rgba(212, 175, 55, 0.12);
+  transform: translateY(-2px);
+}
+
+.bento-glow-gold {
+  box-shadow: 0 0 35px rgba(212, 175, 55, 0.15);
+}
+
+/* Luxury gold text gradient */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #FFF0BE 0%, #D4AF37 50%, #AA820A 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-silver-gradient {
+  background: linear-gradient(135deg, #FFFFFF 0%, #CBD5E1 60%, #94A3B8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Glassmorphism surfaces */
+.glass-panel {
+  background: rgba(15, 23, 42, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-panel-gold {
+  background: rgba(20, 24, 38, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(212, 175, 55, 0.25);
+}
+
+.glass-input {
+  background: rgba(15, 23, 42, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  transition: all 0.2s ease;
+}
+
+.glass-input:focus {
+  outline: none;
+  border-color: rgba(212, 175, 55, 0.6);
+  box-shadow: 0 0 15px rgba(212, 175, 55, 0.15);
+}
+
+/* Subtle glow effects */
+.glow-gold {
+  box-shadow: 0 0 25px rgba(212, 175, 55, 0.15);
+}
+
+.glow-blue {
+  box-shadow: 0 0 25px rgba(59, 130, 246, 0.15);
+}
+
+/* Custom sleek scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #090D16;
+}
+::-webkit-scrollbar-thumb {
+  background: #1E293B;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D4AF37;
+}
+
+/* -------------------------------------------------------------
+ * LOVABLE LUXURY ARCHITECTURE UTILITIES & TOKENS
+ * ------------------------------------------------------------- */
+.eyebrow {
+  font-size: 0.6875rem;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: #D4AF37;
+  font-family: 'Space Grotesk', 'PP Neue Montreal', monospace;
+  font-weight: 600;
+}
+
+.hairline-gold {
+  border: 1px solid rgba(212, 175, 55, 0.28);
+}
+
+.spec-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  padding: 0.25rem 0.625rem;
+  border-radius: 9999px;
+  background: rgba(15, 23, 42, 0.85);
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  font-size: 0.6875rem;
+  color: #F3E5AB;
+  letter-spacing: 0.05em;
+  font-family: 'Space Grotesk', 'PP Neue Montreal', monospace;
+}
+
+@keyframes pulse-ring {
+  0% {
+    box-shadow: 0 0 0 0 rgba(212, 175, 55, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 14px rgba(212, 175, 55, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(212, 175, 55, 0);
+  }
+}
+
+.animate-pulse-ring {
+  animation: pulse-ring 2.4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* -------------------------------------------------------------
+ * MAGIC UI & REACT BITS LUXURY UTILITIES
+ * ------------------------------------------------------------- */
+@keyframes shimmer {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+.shimmer-gold-button {
+  background: linear-gradient(
+    90deg,
+    #B38F24 0%,
+    #D4AF37 25%,
+    #FFF4D0 50%,
+    #D4AF37 75%,
+    #B38F24 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 4s ease-in-out infinite;
+}
+
+.spotlight-card {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.spotlight-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(212, 175, 55, 0.6), transparent);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  pointer-events: none;
+  z-index: 20;
+}
+
+.spotlight-card:hover::before {
+  opacity: 1;
+}
+
+.spotlight-card:hover {
+  border-color: rgba(212, 175, 55, 0.45);
+  box-shadow: 0 16px 40px -10px rgba(0, 0, 0, 0.6), 0 0 25px rgba(212, 175, 55, 0.12);
+  transform: translateY(-3px);
+}
+
+/* Glass & Ambient Luxury Tokens */
+.glass-panel-elevated {
+  background: rgba(13, 18, 32, 0.82);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 20px 45px -15px rgba(0, 0, 0, 0.7), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.glass-panel-gold-glow {
+  background: rgba(15, 20, 36, 0.88);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(212, 175, 55, 0.35);
+  box-shadow: 0 20px 50px -15px rgba(0, 0, 0, 0.8), 0 0 30px rgba(212, 175, 55, 0.12);
+}
+
+/* Magic UI Animated Gold Border */
+@keyframes border-rotate {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(20deg);
+  }
+}
+
+.animated-border-gold {
+  position: relative;
+}
+
+.animated-border-gold::after {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.6), rgba(255, 244, 208, 0.2), rgba(170, 130, 10, 0.5));
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+/* Subtle architectural grid pattern */
+.bg-architectural-grid {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+                    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-pulse-ring,
+  .shimmer-gold-button,
+  .animated-border-gold::after {
+    animation: none !important;
+  }
+  .spotlight-card:hover {
+    transform: none !important;
+  }
+}
