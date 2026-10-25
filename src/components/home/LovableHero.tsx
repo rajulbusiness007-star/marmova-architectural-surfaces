@@ -165,12 +165,12 @@ export const LovableHero: React.FC<LovableHeroProps> = ({
       if (hotspot.targetTileId) {
         onVisualizeTile(hotspot.targetTileId);
       } else {
-        onNavigate('3d');
+        onNavigate('visualizer');
       }
     } else if (hotspot.ctaAction === 'rfq') {
       onOpenRfq();
     } else if (hotspot.ctaAction === 'calculator') {
-      onNavigate('calculator');
+      onNavigate('container-calc');
     } else if (hotspot.ctaAction === 'whatsapp') {
       onSendWhatsApp();
     }
@@ -240,7 +240,7 @@ export const LovableHero: React.FC<LovableHeroProps> = ({
           <motion.button
             whileHover={{ scale: 1.03 }}
             whileTap={{ scale: 0.98 }}
-            onClick={() => onNavigate('3d')}
+            onClick={() => onNavigate('visualizer')}
             className="shimmer-gold-button flex items-center gap-2 px-6 py-3 rounded-xl text-slate-950 font-bold text-xs uppercase tracking-wider transition-shadow shadow-[0_0_25px_rgba(212,175,55,0.4)] cursor-pointer"
           >
             <Move3d className="w-4 h-4 text-slate-950" />

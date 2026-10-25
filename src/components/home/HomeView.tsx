@@ -10,6 +10,7 @@ import { COMPANY_INFO, COUNTRY_CONTACTS } from '../../data/companyConfig';
 import { NavigationTab } from '../layout/Navbar';
 import { TileProduct } from '../../types';
 import { LovableHero } from './LovableHero';
+import { ReviewsSection } from './ReviewsSection';
 import {
   Compass,
   Truck,
@@ -1033,6 +1034,14 @@ export const HomeView: React.FC<HomeViewProps> = ({
           </div>
         </div>
       </section>
+
+      {/* 5. VERIFIED ARCHITECTURAL REVIEWS & GLOBAL PROJECT ENDORSEMENTS */}
+      <ReviewsSection
+        onOpenProduct={onOpenProduct}
+        onVisualizeTile={onVisualizeTile}
+        onOpenRfq={onOpenRfq}
+        onSendWhatsApp={onSendWhatsApp}
+      />
 
       {/* 6. FAQ ACCORDION SECTION */}
       <section className="space-y-6">
